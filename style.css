@@ -1,4 +1,61 @@
-.casas {
-    width: 75px;
-    height: 75px;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pontuacao {
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+}
+
+#div_jogada {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: calc(100%/2 - 100px);
+}
+
+#div_pontuacao{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    top: 30px;
+    left: calc(100%/2 - 100px);
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+}
+
+#tabuleiro {
+    position: absolute;
+    top: 60px;
+}
+
+.casa {
+    position: absolute;
+}
+
+#pecas {
+    position: absolute;
+    top: 60px;
+}
+
+.peca {
+    position: absolute;
 }
